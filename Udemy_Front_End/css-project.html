@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Web Page</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            line-height: 1.5em;
+        }
+
+        #header{
+            background: black;
+            font-family: Arial;
+            height: 100px;
+        }
+
+        #contentwrapper{
+            float: left;
+            width: 100%;
+        }
+
+        #contentcolumn {
+            margin: 0 230px 0 230px;
+        }
+
+        #leftcolumn{
+            float: left;
+            width: 230px;
+            margin-left: -100%;
+            background: #24C8FF;
+        }
+        #rightcolumn{
+            float: left;
+            width: 230px;
+            margin-left: -230px;
+            background: #FFFB00;
+        }
+        .innertext{
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #5e5e5e;
+        }
+
+        #footer{
+            clear: left; /*Cannot float on legy*/
+            width: 100%;
+            background-color: black;
+            color: #fff;
+            font-family: Arial;
+            text-align: center;
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header"></header>
+</body>
+</html>

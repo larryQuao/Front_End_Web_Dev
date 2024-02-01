@@ -1,0 +1,35 @@
+background-color properties:
+*color name
+*hex number
+*RGB color code
+*transparent
+
+background-repeat properties:
+*repeat-x
+*repeat-y
+*no-repeat
+
+background-position properties:
+*top-left
+*top-right
+*top-center
+*center-left
+*center-right
+*center-center
+*bottom-left
+*bottom-right
+*bottom-center
+*x-% y-%
+*x-pos y-pos
+
+img properties:
+*opacity: decimal fom 0.1 - 1.0
+
+img:hover properties:
+*opacity: decimal fom 0.1 - 1.0
+
+Link states properties:
+*a:unvisited
+*a:visited
+*a:hover
+*a:active
