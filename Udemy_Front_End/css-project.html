@@ -40,7 +40,7 @@
         }
         .innertext{
             margin: 20px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Arial;
             color: #5e5e5e;
         }
 
@@ -53,9 +53,90 @@
             text-align: center;
             padding: 4px;
         }
+
+        /*### Navigation Bar ###*/
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+
+        li:last-child{
+            border-right: #000;
+        }
+
+        li a{
+            display: block;
+            text-align: center;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a :hover:not(.active){
+            background-color: #808080;
+        }
+
+        .active{
+            background-color: #0099ff;
+        }
+
+        /* ### Responsive Layout ### */
+        
+
+        @media (max-width: 840px){
+            /* Drop Right Column Down */
+            #leftcolumn{
+                margin-left: -100px;
+            }
+
+            #rightcolum{
+                float: none;
+                width: 100%;
+                margin-left: 0;
+                clear: both;
+            }
+
+            #contentcolumn{
+                margin-left: 0;
+            }
+        }
     </style>
 </head>
 <body>
-    <header id="header"></header>
+   <div id="container">
+        <div id="header">
+            <ul style="display: inline;">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div id="contentwrapper">
+            <div id="contentcolumn">
+                <div class="innertext">
+                    <b>Welcome</b> <br>Contrary to popular beliefe Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum minus mollitia ullam dolores eveniet sed exercitationem aut vero possimus fuga quae adipisci repellendus veniam cupiditate debitis inventore eius ex ipsam voluptatum, quia libero quasi nisi illo deleniti! Odio, quisquam! A ut fuga quod rem quam sunt, deserunt harum veniam quo quaerat suscipit impedit libero non inventore molestias. Error, nisi doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut debitis in quas, dolorum saepe magni omnis incidunt repudiandae tempora animi tempore eaque laudantium esse magnam facilis exercitationem libero nulla nihil amet obcaecati placeat autem laborum quam. Dolorem, aliquam laboriosam porro unde dolor, consectetur facere consequatur quam vero tempora eum quibusdam!
+                </div>
+            </div>
+        </div>
+        <div id="leftcolumn">
+            <div class="innertext">
+                <b>Left Column: <em>230px</em></b><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus itaque quidem tenetur, aliquam nesciunt ea nisi reprehenderit, quia asperiores sunt nemo voluptas vero iste rerum aperiam exercitationem, fugit magnam? Fugit commodi dolorem, culpa totam alias modi ipsa, architecto, facilis praesentium aliquam suscipit. Nesciunt illum laborum harum aperiam porro placeat vel et a voluptatem, voluptates corrupti provident, excepturi delectus ipsum, incidunt eveniet. Magnam illo velit reprehenderit ipsa ipsum non enim distinctio. Magnam laudantium voluptatibus quo ab dolores culpa, commodi asperiores autem.
+            </div>
+        </div>
+        <div id="rightcolumn">
+            <div class="innertext">
+                <b>Left Column: <em>230px</em></b><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus itaque quidem tenetur, aliquam nesciunt ea nisi reprehenderit, quia asperiores sunt nemo voluptas vero iste rerum aperiam exercitationem, fugit magnam? Fugit commodi dolorem, culpa totam alias modi ipsa, architecto, facilis praesentium aliquam suscipit. Nesciunt illum laborum harum aperiam porro placeat vel et a voluptatem, voluptates corrupti provident, excepturi delectus ipsum, incidunt eveniet. Magnam illo velit reprehenderit ipsa ipsum non enim distinctio. Magnam laudantium voluptatibus quo ab dolores culpa, commodi asperiores autem.
+            </div>
+        </div>
+   </div>
 </body>
 </html>
