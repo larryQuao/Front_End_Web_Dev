@@ -2,5 +2,10 @@ On the 1st of May, 2024
 I started the How to build a personal Portifolio Website Using HTML, CSS, and JavaScript
 I reached video 32:02 of How to build personal Portifolio Website Using HTML, CSS, and JavaScript
 
+<<<<<<< HEAD
 25th May, 2024
 I reached video 57:37 of How to biuld personal Portifolio Website Using HTML,CSS, and JavaScript
+=======
+On the 8th May, 2024
+I reached video 46:37 of How to build personal Portifolio Website Using HTML, CSS, and JavaScript
+>>>>>>> 6993ca4d1718775ff3a240160a040ffe5b4f7519
