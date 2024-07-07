@@ -22,7 +22,7 @@ a {
 }
 
 .navbar {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
@@ -38,11 +38,11 @@ a {
     align-items: center;
     display: flex;
     gap: 36px;
-    border: solid 1px green ;
+    /* border: solid 1px green ; */
 }
 
 .top-section {
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     align-items: center;
     width: 844px;
     /* justify-content: center; */
@@ -52,12 +52,12 @@ a {
 }
 
 .logo-image {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     margin-bottom: 41px;
     width: auto;
 }
 .dev-title {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     font-family: 'Recursive', monospace;
     font-size: 71px;
     font-style: italic;
@@ -68,7 +68,7 @@ a {
 }
 
 .sub-headings {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     font-size: 29px;
     line-height: 43.5px;
     font-weight: 400;
@@ -76,7 +76,7 @@ a {
 
 .tech-sectors {
     display: flex   ;
-    border: solid 1px yellow;
+    /* border: solid 1px yellow; */
     height: 65px;
     justify-content: center; 
     align-items: center;
@@ -85,14 +85,14 @@ a {
 }
 
 .two-icons {
-    border: solid 1px greenyellow;
+    /* border: solid 1px greenyellow; */
     display: flex;
     gap: 13px;
     margin-right: 41px;
 }
 
 .tech-fields {
-    border: solid 1px grey;
+    /* border: solid 1px grey; */
     display: flex;
     gap: 36px;
     font-family: 'Recursive', monospace;
@@ -104,7 +104,7 @@ a {
 }
 
 .gradient{
-    border: solid 1px #FF7575;
+    /* border: solid 1px #FF7575; */
     height: 60px;
     width: 116px;
     margin-left: -130px;
@@ -114,7 +114,7 @@ a {
 .article-listing {
     display: flex;
     flex-direction: column;
-    border: solid 1px white;
+    /* border: solid 1px white; */
     width: 1244px;
     margin: auto;
     gap: 37px;
@@ -125,7 +125,7 @@ a {
     display: flex;
     flex-direction: column;
     padding: 26px;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     width: 390px;
     border-radius: 22px;
     /* justify-content: center; */
@@ -154,7 +154,7 @@ a {
 }
 
 .date_n_field {
-    border: solid 1px black;
+    /* border: solid 1px black; */
     display: flex;
     gap: 20px;
 }
@@ -162,4 +162,117 @@ a {
 .row_of_cards {
     display: flex;
     justify-content: space-between;
+}
+
+.wrapper {
+    width: 478px;
+    height: 47px;
+    /* border: solid 1px red; */
+    margin: auto;
+    margin-bottom: 157px;
+}
+
+.wrapper .menu, .wrapper .menu .pagination {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.menu {
+    justify-content: space-between;
+}
+
+.pagination {
+    /* border: solid 1px blue; */
+    justify-content: space-between;
+    /* width: 100%;
+    height: 50px; */
+}
+
+
+.wrapper .menu li, .wrapper .menu .pagination li a{
+    list-style: none;
+    font-family: 'Recursive', monospace;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+    color: #909090;
+}
+
+.wrapper .menu li:hover, .wrapper .menu .pagination li:hover a {
+    color: #FF7575;
+}
+
+/* .line {
+    position: absolute;
+    height: 3px;
+    width: 20px;
+    background: #FF7575;
+    
+} */
+
+.footer {
+    display: flex;
+    border-top: solid 1px #4D4D4D;
+    padding-left: 160px;
+    padding-right: 160px;
+    justify-content: space-between;
+    height: 68px;
+    bottom: 0px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.leftside{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+}
+
+.rightside{
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+
+.rightside .social{
+    display: flex;
+}
+
+.leftside .logo{
+    font-size: 20px;
+    line-height: 37.71px;
+}
+
+.byme{
+    width: 130px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #4699E0;
+    text-align: center;
+    font-size: 16px;
+    align-content: center;
+}
+
+.social {
+    width: 221px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #4699E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: ; */
+}
+
+.social .twitter {
+    width: 20px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.social .followme{
+    font-size: 16px;
 }
