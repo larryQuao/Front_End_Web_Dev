@@ -419,6 +419,8 @@ body {
   display: grid;
   place-content: center;
   background-color: var(--surface);
+  color: var(--on-surface-variant);
+  --state-layer-bg: var(--on-surface-variant);
  }
 
  .tab-btn.active { 
@@ -479,7 +481,7 @@ body {
   background-color: var(--surface-container-low);
   border-radius: var(--radius-medium);
   padding: 16px;
-  --state-layer-lg:var(--on-surface)
+  --state-layer-bg: var(--on-surface);
  }
 
  .card-banner { border-radius: var(--radius-medium);}
